@@ -1,0 +1,129 @@
+.videolayer {
+    
+position: fixed;
+    left: -100px;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*
+.videoback {
+    position: fixed;
+    left: 0;
+    right: 60px;
+    bottom: 0;
+    width: 120%;
+    height: 100%;
+}
+*/
+
+
+#panel0 active, #panel1 active {
+    color: yellow;
+}
+
+#panel0 {
+
+    display: block;
+    position: absolute;
+    position: fixed;
+   border-radius: 20px solid yellow;
+    margin-top: 530px;
+    margin-left: 400px;
+    color: yellow;
+    background-color: transparent;
+    font-weight: 800;
+    
+}
+
+
+#panel1 {
+    
+        display: block;
+    position: absolute;
+    position: fixed;
+   border-radius: 10px solid yellow;
+    margin-top: 530px;
+    margin-left: 670px;
+    color: yellow;
+    background-color: transparent;
+    font-weight: 800;
+}
+
+.dice {
+        position: absolute;
+    position: fixed;
+      background-color: yellow;
+    border-radius: 35px;
+    margin-left: 510px;
+    margin-top: 445px;
+    
+}
+.btn-roll {
+    position: absolute;
+    position: fixed;
+    margin-left: 538px;
+    margin-top: 540px;
+    background-color: black;
+    font-weight: 500;
+      color: yellow;
+    border: 2px solid hotpink;
+}
+
+.btn-hold {
+    position: absolute;
+    position: fixed;
+    margin-left: 556px;
+    margin-top: 595px;
+    background-color: black;
+     font-weight: 600;
+     color: yellow;
+    border: 2px solid hotpink;
+}
+
+.btn-new {
+    
+    position: absolute;
+    display: block;
+    margin-left: 510px;
+    margin-top: 295px;
+    background-color: black;
+    color: yellow;
+    border: 2px solid hotpink;
+}
+
+
+body {
+    background-color: black;
+}
+
+.player-score, .player-current-score {
+    
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.instructions {
+    color: yellow;
+    position: absolute;
+    position: fixed;
+    text-align: center;
+    margin-left: 1205px;
+    margin-top: 10px;
+}
+.btn-rol, .btn-hod {
+    color: yellow;
+    background-color: black;
+    border: 2px solid hotpink;
+}
+
+#myName {
+    position: absolute;
+    display: block;
+    margin-left: 600px;
+    margin-top: 110px;
+    color: black;
+    font-weight: 800;
+}
